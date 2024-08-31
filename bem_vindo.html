@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/logo_rosa.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #131313;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #2c2c2c;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            margin: auto;
+            flex: 0;
+        }
+        .container h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+        .container p {
+            margin: 20px 0 0;
+            color: #ffffff;
+            font-size: 18px;
+        }
+        .rodape {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            margin-top: auto;
+        }
+        .rodape__logo {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .rodape__lista {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .lista__link {
+            margin: 0 15px;
+        }
+        .lista__link a {
+            color: white;
+            text-decoration: none;
+        }
+        .rodape__texto {
+            font-size: 14px;
+            margin: 5px 0;
+            line-height: 1.4;
+        }
+        .qr-code {
+            width: 300px; 
+            max-width: 100%; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bem-vindo novo usuário!</h1>
+        <p>Aqui estará o QR Code para realizar o pagamento:</p>
+        <img src="img/QR_CODE.png" alt="QR Code" class="qr-code">
+    </div>
+
+    <footer class="rodape">
+        <img src="img/Logo.png" alt="Alura+" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link"><a href="#">Idioma</a></li>
+            <li class="lista__link"><a href="#">Dispositivos compatíveis</a></li>
+            <li class="lista__link"><a href="#">Contrato de assinatura</a></li>
+            <li class="lista__link"><a href="#">Política de privacidade</a></li>
+            <li class="lista__link"><a href="http://www.staggeringbeauty.com/">Site divertido</a></li>
+            <li class="lista__link"><a href="#">Anúncios personalizados</a></li>
+            <li class="lista__link"><a href="#">Ajuda</a></li>
+        </ul>
+        <p class="rodape__texto">® 2024 Stopify, Stopify LTDA. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Stopify Deluxe é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Deluxe é comercializado por Stopify LTDA, Rua Xitãozinho e Xororó, 1999 - CALANGO SECO - BA, 77777-666, Brasil e CNPJ 48.195.537/1950-77</p>
+    </footer>
+
+</body>
+</html>
